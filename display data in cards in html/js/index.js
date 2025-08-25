@@ -264,7 +264,7 @@ products.forEach((product , index)=>{
                 <h5 class="card-title">${product.title}</h5>
                 
                 <p class="card-text text-truncate-3 pe-2" id="desc-${index}">${product.description}</p>
-                <a href="javascript:void(0)" class="text-primary small" onclick="toggleDesc('desc-${index} , this')">See more</a>
+                <a href="javascript:void(0)" class="text-primary small" onclick="toggleDesc('desc-${index}',this)">See more</a>
                 
                 <div class="mx-auto">
                     <span class="pe-5">${product.price}</span>
@@ -277,4 +277,3 @@ products.forEach((product , index)=>{
     
     `
 })
-
